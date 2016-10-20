@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Text Recognition</string>
+    <string name="detected_text">Detected text will be here!</string>
+    <string name="detected_text_title">&#160;&#160;Detected text</string>
+</resources>
