@@ -59,7 +59,7 @@
         android:layout_height="0dp"
         android:layout_weight="2.5"
         android:background="@android:color/white"
-        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/view_medium_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_horizontal_margin">

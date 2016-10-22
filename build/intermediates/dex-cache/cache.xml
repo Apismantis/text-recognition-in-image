@@ -5,85 +5,8 @@
         jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="f5f115e01982d7e72aee5571a2d7b24648226fa2">
+        sha1="49512344fc94e1a55851869c2d84a1461d43f1bc">
         <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/instant-run_155b391a4ab1f8f84ec2657ca0365613a7f0a6d8.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f4d275c099b1d7e1f7cad1b6469b67bd221d422d.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_ea542bc4084c413a1ef9495c6bbb0ad4cba53618.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.0_3238306d8be3bced2840a99c144c77cd1ecb24b9.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_e089fed769bdf9a956f7b293a71239e7f4831c77.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_4f197fe99fc83c43bd852bd4860b8f7e3f467d74.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.0_9479e30cbf603e43909e08340b1c1033e5d43d4f.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_c6674fd9f363410ae98967094a1bc333d29674f3.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_e787a6a368af466cc597a77fd1d6e1ab9ec06e6f.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="f4e85eafa876cd7d7641244867dac3f88d71e866">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.0.0_b5183c45ed09cd43d64a8acbb5578bd23dbe8277.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_255301c18def6a801b7f29314d0a1bd7a08bade0.jar" />
-    </item>
-    <item
-        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_f83cc822608370c7226eca9212fb97cb8c123812.jar" />
     </item>
     <item
         jar="/home/apismantis/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
@@ -121,11 +44,32 @@
         <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_2e16427a3e6dc4dd817e2e58ed82084ba636b631.jar" />
     </item>
     <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f4d275c099b1d7e1f7cad1b6469b67bd221d422d.jar" />
+    </item>
+    <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_ea542bc4084c413a1ef9495c6bbb0ad4cba53618.jar" />
+    </item>
+    <item
         jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
         <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.0.0_15e3dbc75c530a6888c8768a8dc7a7e0dcc084b6.jar" />
+    </item>
+    <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.0_3238306d8be3bced2840a99c144c77cd1ecb24b9.jar" />
     </item>
     <item
         jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
@@ -135,11 +79,53 @@
         <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_529a6aa75671afef326ae5934d2d6f4097bac092.jar" />
     </item>
     <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_4f197fe99fc83c43bd852bd4860b8f7e3f467d74.jar" />
+    </item>
+    <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_e089fed769bdf9a956f7b293a71239e7f4831c77.jar" />
+    </item>
+    <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.0_9479e30cbf603e43909e08340b1c1033e5d43d4f.jar" />
+    </item>
+    <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_c6674fd9f363410ae98967094a1bc333d29674f3.jar" />
+    </item>
+    <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_e787a6a368af466cc597a77fd1d6e1ab9ec06e6f.jar" />
+    </item>
+    <item
         jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_4c64167c41435f0fa5e9c3d685a65d3deea32348.jar" />
+    </item>
+    <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f4e85eafa876cd7d7641244867dac3f88d71e866">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.0.0_b5183c45ed09cd43d64a8acbb5578bd23dbe8277.jar" />
     </item>
     <item
         jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
@@ -149,10 +135,24 @@
         <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_879f47efc455acb4d6daf9e5b0fa35dea9ec91c1.jar" />
     </item>
     <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_255301c18def6a801b7f29314d0a1bd7a08bade0.jar" />
+    </item>
+    <item
+        jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_f83cc822608370c7226eca9212fb97cb8c123812.jar" />
+    </item>
+    <item
         jar="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="304258fa14ef7e6a7c524c0c1cce88f02313689a">
+        sha1="bc3cfc14bbc291f74d494a503fc26c38a1038638">
         <dex dex="/home/apismantis/AndroidStudioProjects/text-recognition-in-image/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_78f789ebbe8a1c0efacb0af6754f14a0a987c5e8.jar" />
     </item>
 

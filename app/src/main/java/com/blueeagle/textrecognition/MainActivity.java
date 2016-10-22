@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ImageView imvPhoto;
 
     static String TAG = "MainActivity";
-    static final int RC_HANDLE_CAMERA_PERM = 2;
-    static final int REQUEST_IMAGE_CAPTURE = 1;
-    static final int REQUEST_PICK_IMAGE = 2;
+    static final int RC_HANDLE_CAMERA_PERM = 1;
+    static final int REQUEST_IMAGE_CAPTURE = 2;
+    static final int REQUEST_PICK_IMAGE = 3;
 
     String mCurrentPhotoPath;
 
@@ -131,37 +131,56 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    /**
+     * Detect text inside an image
+     *
+     * @param imageBitmap: Bitmap image contain text
+     */
     public void detectTextInImage(Bitmap imageBitmap) {
+
+        // Check textRecognizer is operational
         if (!textRecognizer.isOperational()) {
+            Toast.makeText(this, "Detector is not available. Connect to the internet to download library",
+                    Toast.LENGTH_LONG).show();
+
             Log.w(TAG, "Detector dependencies are not yet available.");
 
             // Check for low storage.  If there is low storage, the native library will not be
             // downloaded, so detection will not become operational.
-            IntentFilter lowstorageFilter = new IntentFilter(Intent.ACTION_DEVICE_STORAGE_LOW);
-            boolean hasLowStorage = registerReceiver(null, lowstorageFilter) != null;
+            IntentFilter lowStorageFilter = new IntentFilter(Intent.ACTION_DEVICE_STORAGE_LOW);
+            boolean hasLowStorage = registerReceiver(null, lowStorageFilter) != null;
 
             if (hasLowStorage) {
                 Toast.makeText(this, "Low Storage", Toast.LENGTH_LONG).show();
                 Log.w(TAG, "Low Storage");
             }
+
+            return;
         }
 
         Frame imageFrame = new Frame.Builder()
                 .setBitmap(imageBitmap)
                 .build();
 
-        String detectedText = "";
-        SparseArray<TextBlock> items = textRecognizer.detect(imageFrame);
+        // Detect text in image
+        try {
+            SparseArray<TextBlock> items = textRecognizer.detect(imageFrame);
+            // Get text into detectedText string
+            String detectedText = "";
+            for (int i = 0; i < items.size(); i++) {
+                TextBlock textBlock = items.get(items.keyAt(i));
+                detectedText += textBlock.getValue() + "\n\n";
+            }
 
-        for (int i = 0; i < items.size(); i++) {
-            TextBlock textBlock = items.get(items.keyAt(i));
-            detectedText += "\n\n" + textBlock.getValue();
+            if (detectedText.equals(""))
+                detectedText = "No text is detected";
+
+            tvDetectedText.setText(detectedText);
+
+        } catch (Exception ex) {
+            Toast.makeText(this, "An error occurred while detection", Toast.LENGTH_LONG).show();
+            ex.printStackTrace();
         }
-
-        if (detectedText.equals(""))
-            detectedText = "No text is detected";
-
-        tvDetectedText.setText(detectedText);
     }
 
     public void pickImageFromGallery() {
@@ -170,6 +189,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startActivityForResult(pickPhotoIntent, REQUEST_PICK_IMAGE);
     }
 
+    // Open camera then take a photo
     public void dispatchTakePictureIntent() {
 
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
@@ -201,12 +221,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (requestCode) {
             case REQUEST_IMAGE_CAPTURE:
                 if (resultCode == RESULT_OK) {
-                    Log.d(TAG, "Decoding bitmap.....");
                     Bitmap bitmap = decodeBitmap();
                     if (bitmap != null) {
                         imvPhoto.setImageBitmap(bitmap);
                         detectTextInImage(bitmap);
-                        Log.d(TAG, "Decoded bitmap successful!");
                     }
                 }
                 break;
